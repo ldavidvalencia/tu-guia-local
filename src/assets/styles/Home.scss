@@ -1,36 +1,5 @@
 @import './Vars.scss';
 
-.planes__container {
-    background-color: $planes-color;
-    width: 100%;
-    height: 280px;
-
-    .planes__text-1 {
-        color: white;
-        font-weight: bold;
-        font-size: 60px;
-        margin-top: 55px;
-    }
-
-    .planes__text-2 {
-        color: #8dba4e;
-        font-weight: bold;
-        font-size: 75px;
-        margin-top: -25px;
-
-        .planes__text-premium {
-            margin: 0 60px;
-        }
-
-        .planes__star {
-            width: 35px;
-            position: relative;
-            bottom: 55px;
-            margin: 0 10px;
-        }
-    }
-}
-
 .redes__container {
     background-color: $redes-color;
     width: 100%;

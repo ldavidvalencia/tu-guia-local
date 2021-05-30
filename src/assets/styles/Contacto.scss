@@ -1,0 +1,55 @@
+@import './Vars.scss';
+
+.title {
+    font-weight: bold;
+    color: #90c958;
+    font-size: 55px;
+    text-align: center;
+}
+
+.titulos__caja {
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.texto__caja {
+    font-weight: bold;
+    font-size: 23px;
+    margin: 0;
+    color: #42484c;
+}
+
+.redes__logo {
+    width: 70px;
+}
+
+.label__input {
+    font-weight: bold;
+    font-size: 25px;
+    color: #42484c;
+}
+
+.container__preguntas {
+    width: 45%;
+    padding: 0 150px;
+
+    input {
+        border: none;
+        background-color: #dee0df;
+        height: 45px;
+    }
+
+    .input__button {
+        width: 165px;
+        border: none;
+        background-color: #90c958;
+        color: white;
+        font-weight: bold;
+        font-size: 25px;
+    }
+}
+
+.container__oficina {
+    width: 45%;
+    padding: 0 100px;
+}
